@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	 <head>
+		 <title>Hello Home Screen</title>
+		 <meta name="viewport" content="width=device-width">
+		 <meta name="mobile-web-app-capable" content="yes">
+		 <link rel="shortcut icon" sizes="196x196" href="/icon.png">
+	 </head>
+	 <body>
+		<p>"Add to home screen" should be available in Chrome Mobile's menu:</p>
+		<p>
+			<img src="https://developers.google.com/chrome/mobile/images/home_add.png" width="25%">
+		</p>
+		<p>
+			Read more <a href="https://developers.google.com/chrome/mobile/docs/installtohomescreen">here</a>
+			and <a href="http://www.mobilexweb.com/blog/home-screen-web-apps-android-chrome-31">here</a>.
+		</p>
+		<p>Your browser is: <b id="ua"></b></p>
+		<script>document.getElementById('ua').innerHTML = navigator.userAgent;</script>
+	 </body>
+</html>
